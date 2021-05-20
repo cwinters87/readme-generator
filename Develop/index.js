@@ -41,12 +41,12 @@ const questions = [
             name: "license",
             message: "What liscencse are you using",
             choices: [
-                "Apache",
-                "Academic",
-                "GPL",
+                "Apache 2.0",
+                "Boost Software 1.0",
+                "Eclipse Public 1.0",
                 "MIT",
-                "Mozilla",
-                "Open"
+                "Mozilla 2.0",
+                "None"
             ]
         },
         {
