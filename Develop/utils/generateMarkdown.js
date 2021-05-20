@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   let badge;
   switch(license) {
     case "Apache 2.0":
-      badge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]";
+      badge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
       break;
     case "Boost Software 1.0":
       badge = "Monday";
