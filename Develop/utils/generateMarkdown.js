@@ -4,22 +4,22 @@ function renderLicenseBadge(license) {
   let badge;
   switch(license) {
     case "Apache 2.0":
-      badge = "https://img.shields.io/badge/License-Apache%202.0-blue.svg";
+      badge = "![badge](https://img.shields.io/badge/License-Apache%202.0-blue.svg)";
       break;
     case "Boost Software 1.0":
-      badge = "Monday";
+      badge = "![badge](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)";
       break;
     case "Eclipse Public 1.0":
-      badge = "Tuesday";
+      badge = "![badge](https://img.shields.io/badge/License-EPL%201.0-red.svg)";
       break;
     case "MIT":
-      badge = "Wednesday";
+      badge = "![badge](https://img.shields.io/badge/License-ISC-blue.svg)";
       break;
     case "Mozilla 2.0":
-      badge = "Thursday";
+      badge = "![badge](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)";
       break;
     case "None":
-      badge = "Friday";
+      badge = "";
       break;
   }
   return badge
@@ -40,7 +40,7 @@ function generateMarkdown(data) {
   return `
   <h1 align="center">${data.title}</h1>
   
-![badge](${renderLicenseBadge(data.license)})<br />
+${renderLicenseBadge(data.license)}<br />
 ## Description
 🔍 ${data.description}
 ## Table of Contents

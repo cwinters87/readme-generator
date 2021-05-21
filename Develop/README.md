@@ -1,9 +1,9 @@
 
   <h1 align="center">test</h1>
   
-![badge](https://img.shields.io/badge/License-Apache%202.0-blue.svg)<br />
+![badge](https://img.shields.io/badge/License-ISC-blue.svg)<br />
 ## Description
-🔍 tes
+🔍 test
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -17,9 +17,9 @@
 ## Usage
 💻 test
 ## License
-![badge](https://img.shields.io/badge/license-Apache 2.0-brightgreen)
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <br />
-This application is covered by the Apache 2.0 license. 
+This application is covered by the MIT license. 
 ## Contributing
 👪 test
 ## Tests
@@ -27,7 +27,7 @@ This application is covered by the Apache 2.0 license.
 ## Questions
 ✋ undefined<br />
 <br />
-:octocat: Find me on GitHub: [test](https://github.com/test)<br />
+:octocat: Find me on GitHub: [tet](https://github.com/tet)<br />
 <br />
 ✉️ Email me with any questions: test<br /><br />
 _This README was generated with ❤️ by [README-generator](https://github.com/cwinters87/readme-generator)
