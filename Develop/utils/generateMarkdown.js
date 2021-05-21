@@ -25,7 +25,7 @@
 //   return badge
 // }
 
-function renderLicenseBadge(type) {
+function renderLicenseBadge(choice) {
   let badge = {
 
 
@@ -66,7 +66,7 @@ function renderLicenseBadge(type) {
 
     
   };
-  return badge[type];
+  return badge[choice]();
 }
 
 // let's call it
