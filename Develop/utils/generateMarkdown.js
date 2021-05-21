@@ -4,19 +4,19 @@ function renderLicenseBadge(license) {
   let badge;
   switch(license) {
     case "Apache 2.0":
-      badge = "![badge](https://img.shields.io/badge/License-Apache%202.0-blue.svg)";
+      badge = "[![badge](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
       break;
     case "Boost Software 1.0":
-      badge = "![badge](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)";
+      badge = "[![badge](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
       break;
     case "Eclipse Public 1.0":
       badge = "[![badge](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)";
       break;
     case "MIT":
-      badge = "![badge](https://img.shields.io/badge/License-MIT-yellow.svg)";
+      badge = "[![badge](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
       break;
     case "Mozilla 2.0":
-      badge = "![badge](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)";
+      badge = "[![badge](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
       break;
     case "None":
       badge = "";
@@ -25,15 +25,45 @@ function renderLicenseBadge(license) {
   return badge
 }
 
-
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-//function renderLicenseLink(license) {}
+// Please see below!!!:
+//I have the badges themselves link to the license. I built it into the function above - Chris Winters
+    // TODO: Create a function that returns the license link
+    // If there is no license, return an empty string
+    //function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-//function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  let section;
+  switch(license) {
+    case "Apache 2.0":
+      section = "[![badge](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+      break;
+    case "Boost Software 1.0":
+      section = "[![badge](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
+      break;
+    case "Eclipse Public 1.0":
+      section = "[![badge](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)";
+      break;
+    case "MIT":
+      section = "[![badge](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+      break;
+    case "Mozilla 2.0":
+      section = `## License
+[![badge](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0) <br /> This application is covered by the ${license} license.`;
+      break;
+    case "None":
+      section = "";
+      break;
+  }
+  return section
+}
+  
+    //case "Mozilla 2.0":
+      //badge = `## License
+
+      //[![badge](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0) <br /> This application is covered by the ${license} license.`;
+     // break;
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -55,16 +85,13 @@ ${renderLicenseBadge(data.license)}<br />
 💾 ${data.installation}
 ## Usage
 💻 ${data.usage}
-## License
-![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
-<br />
-This application is covered by the ${data.license} license. 
+${renderLicenseSection(data.license)}
 ## Contributing
 👪 ${data.contributing}
 ## Tests
 ✏️ ${data.test}
 ## Questions
-✋ ${data.questions}<br />
+✋ Email or reach me on my GitHub <br />
 <br />
 :octocat: Find me on GitHub: [${data.username}](https://github.com/${data.username})<br />
 <br />
