@@ -1,9 +1,9 @@
 
-  <h1 align="center">df</h1>
+  <h1 align="center">ReadMe Generator</h1>
   
-[![badge](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)<br />
+[![badge](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
 ## Description
-🔍 
+🔍 Generators ReadMe files for your GitHub!
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -13,19 +13,19 @@
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-💾 hf
+💾 npm i
 ## Usage
-💻 fv
+💻 To easily generate readme files for GitHub projects
 ## License
-[![badge](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0) <br /> This application is covered by the Mozilla 2.0 license.
+[![badge](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br /> This application is covered by the MIT license.
 ## Contributing
-👪 fv
+👪 Chris Winters
 ## Tests
-✏️ f
+✏️ you don't
 ## Questions
 ✋ Email or reach me on my GitHub <br />
 <br />
-:octocat: Find me on GitHub: [vf](https://github.com/vf)<br />
+:octocat: Find me on GitHub: [cwinters87](https://github.com/cwinters87)<br />
 <br />
-✉️ Email me with any questions: f<br /><br />
-_This README was generated with ❤️ by [README-generator](https://github.com/cwinters87/readme-generator)
+✉️ Email me with any questions: taylor314@gmail.com<br /><br />
+_This README was generated with ❤️ by Chris Winters [README-generator](https://github.com/cwinters87/readme-generator)
