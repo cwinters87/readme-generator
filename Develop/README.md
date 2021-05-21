@@ -1,7 +1,7 @@
 
   <h1 align="center">test</h1>
   
-![badge](https://img.shields.io/badge/License-ISC-blue.svg)<br />
+![badge](https://img.shields.io/badge/License-EPL%201.0-red.svg)(https://opensource.org/licenses/EPL-1.0)<br />
 ## Description
 🔍 test
 ## Table of Contents
@@ -13,21 +13,21 @@
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-💾 test
+💾 ts
 ## Usage
 💻 test
 ## License
-![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+![badge](https://img.shields.io/badge/license-Eclipse Public 1.0-brightgreen)
 <br />
-This application is covered by the MIT license. 
+This application is covered by the Eclipse Public 1.0 license. 
 ## Contributing
 👪 test
 ## Tests
-✏️ test
+✏️ tes
 ## Questions
 ✋ undefined<br />
 <br />
-:octocat: Find me on GitHub: [tet](https://github.com/tet)<br />
+:octocat: Find me on GitHub: [adf](https://github.com/adf)<br />
 <br />
-✉️ Email me with any questions: test<br /><br />
+✉️ Email me with any questions: adf<br /><br />
 _This README was generated with ❤️ by [README-generator](https://github.com/cwinters87/readme-generator)

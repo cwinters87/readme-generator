@@ -10,10 +10,10 @@ function renderLicenseBadge(license) {
       badge = "![badge](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)";
       break;
     case "Eclipse Public 1.0":
-      badge = "![badge](https://img.shields.io/badge/License-EPL%201.0-red.svg)";
+      badge = "![badge](https://img.shields.io/badge/License-EPL%201.0-red.svg)(https://opensource.org/licenses/EPL-1.0)";
       break;
     case "MIT":
-      badge = "![badge](https://img.shields.io/badge/License-ISC-blue.svg)";
+      badge = "![badge](https://img.shields.io/badge/License-MIT-yellow.svg)";
       break;
     case "Mozilla 2.0":
       badge = "![badge](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)";
