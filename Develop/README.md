@@ -1,9 +1,9 @@
 
-  <h1 align="center">Readme Generator</h1>
+  <h1 align="center">Readme Gen</h1>
   
-[![badge](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
+[![badge](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)<br />
 ## Description
-Easily generate README.md files by just answering a few questions.
+Generates Readme files by just answering a few questions!
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -15,13 +15,13 @@ Easily generate README.md files by just answering a few questions.
 ## Installation
 💾 npm i
 ## Usage
-💻 Developers to easily make readme files for their GitHub reps.
-## License
-[![badge](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br /> This application is covered by the MIT license.
+💻 Helps devs generate readme files for thier GitHub
+## License 
+[![badge](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0) <br /> This application is covered by the Eclipse Public 1.0 license.
 ## Contributing
 👪 Chris Winters
 ## Tests
-✏️ Have to to download and run it.
+✏️ You don't
 ## Questions
 🙋‍♂️ Email or reach me on my GitHub <br />
 <br />

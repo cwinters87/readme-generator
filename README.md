@@ -21,7 +21,9 @@ Builds a nice looking README.md file based on the user input and choices
 ## Contributing
 👪 Chris Winters
 ## Tests
-✏️ Just have to run it
+✏️ Click to view a Demo: https://drive.google.com/file/d/1S2Yx8n47qZ1PzpBfl0pDaow_h9GrLzXn/view?usp=sharing
+![readmegenphoto](./Develop/images/readme1.png)
+![readmephoto](./Develop/images/readme2.png)
 ## Questions
 🙋‍♂️ Email or reach me on my GitHub <br />
 <br />
