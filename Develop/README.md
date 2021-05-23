@@ -1,9 +1,9 @@
 
-  <h1 align="center">README Generator</h1>
+  <h1 align="center">Readme Generator</h1>
   
 [![badge](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
 ## Description
-Builds a nice looking README.md file based on the user input and choices
+Easily generate README.md files by just answering a few questions.
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -15,13 +15,13 @@ Builds a nice looking README.md file based on the user input and choices
 ## Installation
 💾 npm i
 ## Usage
-💻 To make it simpler to make README.md for your GitHub project just by answering a few questions
+💻 Developers to easily make readme files for their GitHub reps.
 ## License
 [![badge](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br /> This application is covered by the MIT license.
 ## Contributing
 👪 Chris Winters
 ## Tests
-✏️ Just have to run it
+✏️ Have to to download and run it.
 ## Questions
 🙋‍♂️ Email or reach me on my GitHub <br />
 <br />
